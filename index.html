@@ -1,59 +1,127 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lelouch Dev</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Austin.dev | Personal Blog</title>
+    <style>
+        body {
+            font-family: monospace;
+            line-height: 1.6;
+            color: #ffffff;
+            background-color: #111111;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            margin-bottom: 30px;
+        }
+        nav {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #333;
+            padding-bottom: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .header-image {
+            width: 100%;
+            height: 100px;
+            background-color: #333;
+            margin-bottom: 10px;
+        }
+        h1, h2 {
+            color: #ffffff;
+        }
+        .orange-link {
+            color: #FFA500;
+            text-decoration: none;
+        }
+        .orange-link:hover {
+            text-decoration: underline;
+        }
+        .post-meta {
+            color: #888;
+            font-size: 0.9em;
+        }
+        .recent-posts {
+            margin-top: 40px;
+        }
+    </style>
 </head>
 <body>
-    <!-- Header -->
     <header>
-        <div class="logo">Lelouch</div>
+        <div class="header-image"></div>
         <nav>
             <ul>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#progress-reports">Progress-Reports</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li>🌓</li>
             </ul>
         </nav>
     </header>
 
-    <!-- Intro Section -->
-    <section id="intro">
-        <h1>Hello, I'm Austin Ma</h1>
-        <p>A Problem Solver developing the skills to execute.</p>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <h3>Project 1</h3>
-                <p>Description of project 1.</p>
-            </div>
-            <div class="project-card">
-                <h3>Project 2</h3>
-                <p>Description of project 2.</p>
-            </div>
-            <!-- Add more project cards as needed -->
+    <main>
+        <h1>Yo, I'm Austin!</h1>
+        
+        <p>Fresh from X? You're in for a treat.</p>
+        
+        <p>Here, I zoom out on the daily grind, discuss the big picture, and share thoughts on various topics.</p>
+        
+        <p>I'll share the progress reports, current CS/ML projects, long-form posts, resources, and whatever catches my fancy.</p>
+        
+        <p>It's like my X feed but supersized.</p>
+        
+        <p>Wanna exchange ideas? <a href="https://google.com" class="orange-link">DM me @austindaily on X</a></p>
+        
+        <h2>Who am I?</h2>
+        
+        <p>After 5+ years in marketing, including running my own agency, I've made an unexpected pivot.</p>
+        
+        <p>I realized the industry's shift toward short-term gains over creative integrity was killing me.</p>
+        
+        <p>Disheartened by the soulless business practices, I decided to pursue something more fulfilling.</p>
+        
+        <p>Now, I'm fully committed to progressing in CS and ML.</p>
+        
+        <a href="https://google.com" class="orange-link">Read the post</a>
+        
+        <div class="recent-posts">
+            <h2>Recent Posts</h2>
+            
+            <article>
+                <h3><a href="https://google.com" class="orange-link">The Thought Process Behind My Learning Plan</a></h3>
+                <p class="post-meta">August 26, 2024</p>
+            </article>
+            
+            <article>
+                <h3><a href="https://google.com" class="orange-link">Math For Machine Learning [Resources]</a></h3>
+                <p class="post-meta">August 26, 2024</p>
+            </article>
+            
+            <article>
+                <h3><a href="https://google.com" class="orange-link">You Are NOT Dumb, You Just Lack the Prerequisites</a></h3>
+                <p class="post-meta">August 19, 2024</p>
+            </article>
+            
+            <article>
+                <h3><a href="https://google.com" class="orange-link">Why I Started Documenting My Grind—and Why You Might Consider It Too</a></h3>
+                <p class="post-meta">August 18, 2024</p>
+            </article>
         </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:email@example.com">email@example.com</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/lelouch">linkedin.com/in/lelouch</a></p>
-        <!-- Add more contact methods as needed -->
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 AustinMa</p>
-    </footer>
-
-    <script src="script.js"></script>
+    </main>
 </body>
 </html>
